@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Login FullPocket</title>
+
+    <!-- Chamada Bootstrap_css -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+
+    <!-- estyle css interno -->
+    <style>
+      body {
+        background-image: url("../images/bg-login.jpg");
+        background-size: cover;
+      }
+      .form-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 500px;
+        min-height: 500px;
+        padding: 50px;
+        padding-top: 100px;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+    </style>
+    <!-- Fim style -->
+  </head>
+  <body>
+    <div class="form-container">
+      <h5 class="card-title text-center">Faça seu Login.</h5>
+      <form>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Digite seu email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input
+            type="password"
+            class="form-control"
+            id="senha"
+            placeholder="Digite sua senha"
+          />
+        </div>
+        <button type="submit" class="btn btn-outline-success">Login</button>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
